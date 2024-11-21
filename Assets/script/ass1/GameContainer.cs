@@ -9,7 +9,7 @@ namespace Assignment_18
         //to save an item in the GameContainer.
         public void SetItem(T newItem)
         {
-            item = newItem;
+            this.item = newItem;
           //  Debug.Log($"item = {item}");
         }
         //to return the saved item.

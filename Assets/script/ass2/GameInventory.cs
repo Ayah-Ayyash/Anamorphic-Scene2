@@ -6,6 +6,7 @@ public class GameInventory : MonoBehaviour
 {
     void Start()
     {
+        
         Inventory potionsInventory = new Inventory();
         Inventory elixirsInventory = new Inventory();
 
@@ -16,6 +17,7 @@ public class GameInventory : MonoBehaviour
         
         elixirsInventory.AddItem("Elixir");
         elixirsInventory.AddItem("Dark Elixir");
+        //مرتين
 
        
         Inventory combinedInventory = potionsInventory + elixirsInventory;

@@ -11,11 +11,12 @@ public class Inventory
     public void AddItem(string item)
     {
         itemNames.Add(item);
+        //زي لما قال arr3.Add(7);
         Debug.Log(item + " is added");
     }
-    public void ShowItems()
+    public void ShowItems()//to log all item
     {
-        foreach (string item in itemNames)
+        foreach (string item in itemNames) //(int n in arr2)
         {
             Debug.Log(item);
         }
